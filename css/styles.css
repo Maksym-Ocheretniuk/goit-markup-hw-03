@@ -239,6 +239,13 @@ img {
 	margin-bottom: 50px;
 }
 
+.projects {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	/* gap: 30px; */
+}
+
 .team-img {
 	margin-bottom: 30px;
 }
