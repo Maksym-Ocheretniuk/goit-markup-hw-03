@@ -65,7 +65,7 @@ img {
 }
 
 .container {
-	width: 1230px;
+	width: 1200px;
 	padding-left: 15px;
 	padding-right: 15px;
 	margin-left: auto;
@@ -159,6 +159,8 @@ img {
 	background: var(--hero-footer-bcg);
 
 	margin-bottom: 94px;
+	padding-top: 200px;
+	padding-bottom: 200px;
 }
 
 .hero-title {
@@ -198,6 +200,11 @@ img {
 .hero-btn:hover,
 .hero-btn:focus {
 	background: var(--btn-hero-accent-color);
+}
+
+.btn-container {
+	display: flex;
+	justify-content: center;
 }
 
 /* -----------------HEADER----------------- */
