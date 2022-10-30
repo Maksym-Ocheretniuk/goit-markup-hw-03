@@ -79,6 +79,17 @@ img {
 
 /* -----------------HEADER----------------- */
 
+.header-container {
+	margin-bottom: 94px;
+
+	display: flex;
+	align-items: center;
+}
+
+.header-logo {
+	margin-right: 93px;
+}
+
 .logo {
 	font-family: "Raleway", Verdana, sans-serif;
 	font-style: normal;
@@ -90,6 +101,12 @@ img {
 
 .logo-web {
 	color: var(--accent-color);
+}
+
+.navigate {
+	display: flex;
+	align-items: center;
+	gap: 50px;
 }
 
 .nav-list {
@@ -107,6 +124,19 @@ img {
 .nav-list:hover,
 .nav-list:focus {
 	color: var(--accent-color);
+}
+
+.nav-list,
+.header-list-contact {
+	display: block;
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+
+.contact-list {
+	display: flex;
+	margin-left: auto;
+	gap: 50px;
 }
 
 .header-list-contact {
@@ -274,9 +304,7 @@ img {
 
 /* -----------------Portfolio page----------------- */
 
-.header-container {
-	margin-bottom: 94px;
-}
+
 
 .portfolio-btn {
 	font-family: inherit;
