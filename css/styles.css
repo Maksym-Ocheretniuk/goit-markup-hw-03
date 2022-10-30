@@ -288,7 +288,7 @@ img {
 .footer {
 	padding-top: 60px;
 	padding-bottom: 60px;
-	
+
 	background: var(--hero-footer-bcg);
 }
 
@@ -330,7 +330,14 @@ img {
 
 /* -----------------Portfolio page----------------- */
 
+.portfolio-filters {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
 
+	margin-bottom: 50px;
+}
 
 .portfolio-btn {
 	font-family: inherit;
@@ -360,7 +367,7 @@ img {
 	background: var(--accent-color);
 }
 
-.work-list {
+.work-item {
 	background: var(--primary-white-color);
 	border: 1px solid var(--portfolio-box);
 
